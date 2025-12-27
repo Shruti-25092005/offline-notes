@@ -1,9 +1,10 @@
-const CACHE_NAME = "offline-notes-v1";
+const CACHE_NAME = "offline-notes-v2";
 const FILES_TO_CACHE = [
-  "/",
-  "/index.html",
-  "/style.css",
-  "/app.js"
+  "./",
+  "./index.html",
+  "./style.css",
+  "./app.js",
+  "./manifest.json"
 ];
 
 self.addEventListener("install", event => {
